@@ -1,0 +1,316 @@
+header{
+    background: url("img/everest.jfif") no-repeat fixed center 0%;
+    background-size: cover;
+    color: #fff;
+}
+header a{
+    color: #fff !important;
+}
+header .header-wrapper{
+    background-color: rgba(0,0,0,0.75);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.navbar-nav{
+    margin-right:0
+}
+
+.myNav{
+    
+    
+    padding: 1% 0
+}
+.myNav .myNav-holder .hidden{
+    display: none;
+}
+.myNav .myNav-holder .right-nav ul li:last-of-type a{
+    background-color: #277df4;
+    color: #fff;
+    border-radius: 20px;
+    padding: 5px 20px;
+
+}
+/**************************************************************/
+.cover{
+    padding: 4% 0 0
+}
+.cover h1{
+    font-size: 60px;
+    font-family: cursive;
+    margin-bottom: 20px
+}
+.cover .cover-holder .lead{
+    padding: 0 15%;
+    margin-bottom: 45px
+}
+.cover .cover-holder .watch{
+    border: 1px solid;
+    width: 17%;
+    margin: auto;
+    border-radius: 20px;
+    padding: 7px;
+    background-color: #fff;
+    color: #000;
+}
+/*******************************************************************/
+.features{
+    padding: 6% 0
+}
+.features i{
+    color: #076cf2
+}
+/*******************************************************************/
+.passcode h2,.parteners h2{
+    margin-bottom: 55px
+}
+.passcode p:first-of-type, .parteners p:first-of-type{
+    margin-bottom: 25px
+}
+.passcode p:last-of-type,.parteners p:last-of-type{
+    margin-bottom: 55px
+}
+.passcode,.parteners{
+    overflow-x: hidden
+}
+
+.passcode img,.parteners img{
+    width: 100%;
+    height: 83%;
+}
+.passcode button:first-of-type{
+    border-radius: 20px;
+    padding: 6px 30px;
+}
+.passcode button:last-of-type{
+    border-radius: 20px;
+    padding: 6px 18px 6px 30px;
+}
+/*******************************************************************/
+.parteners{
+    padding: 10% 0 5% 2%;
+}
+.parteners .drop img{
+    width: 35%;
+}
+/*******************************************************************/
+.interface{
+    background-color: #F5F4F9;
+    padding: 6% 0
+}
+.interface img{
+    width: 100%
+}
+.interface p{
+    color: #b0afb4;
+    text-transform: uppercase
+}
+
+.interface form{
+    position: relative;
+    width: 35%;
+    margin: auto;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.interface form input[type="text"]{
+    border-radius: 20px;
+    height: 45px;
+}
+.interface form button{
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    border-radius: 20px;
+    bottom: 2px;
+    line-height: 0.7;
+}
+/*************************************************************************/
+.myCarousel{
+    padding:6% 0 ;
+    
+}
+.myCarousel button{
+    background-color: transparent;
+    border: none;
+    font-size: 35px;
+
+}
+.myCarousel .col-1{
+    line-height: 13
+}
+.myCarousel img{
+    margin: 0 8%;
+    width: 125px;
+    opacity: .4;
+}
+.myCarousel .active img{
+    width: 210px;
+    opacity: 1;
+    transition: all .3s ease-in-out
+}
+.myCarousel  button:active,.myCarousel  button:hover{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+/****************************************/
+.myCarouselDescription{
+    padding:0 0 5%
+}
+/**************************************************************/
+.rating {
+    margin: 0;
+    display: block;
+    margin: 15px 0;
+  }
+  .rating ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.rating ul li{
+    margin-right: 10px
+}
+.rating .rated{
+    color: #FFC300
+}
+/*************************************************/
+.plan{
+    background-color: #f4f4f4;
+    padding: 5% 0
+}
+.plan h1{
+    margin-bottom: 45px
+}
+.plan .personality{
+    border-radius: 20px;
+    border: 1px solid #8d8b8b;
+    width: 65%;
+    margin-bottom: 50px;
+}
+.plan .personality button{
+    border-radius: 20px;
+    padding: 6px 20px;
+}
+.plan .active-btn{
+    box-shadow: 2px 4px 6px 2px #b8acac;
+    background-color: #fff
+}
+.plan span{
+    color: #5f5f5f
+}
+.plan .row .col-8 .row .col h3{
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.plan .row .col-8 .row .col .btn-light{
+    background-color: transparent;
+    border: 1px solid #ccc;
+    padding: 3px 14px;
+    margin-bottom: 50px;
+}
+.plan .row .col-8 .row .col:first-of-type{
+    z-index:2
+}
+.plan .row .col-8 .row .col:last-of-type{
+    margin-left: -39px;
+    background-color: #d9d9d9;
+    transform: scale(1,.9);
+    border-radius: 15px;
+}
+.plan .row .col-8 .row .col .first-col{
+    background-color: #fff;
+    padding: 17% 0 25% 0;
+    border-radius: 15px;
+
+}
+.plan .row .col-8 .row .col .second-col{
+    padding: 12% 0 0% 0;
+    border-radius: 5%;
+}
+.plan .row .col-8 .row .col .first-col span{
+    font-size: 22px;
+    color: #9b9898;
+    margin-bottom: 15px;
+    display: block;
+}
+.plan .row .col-8 .row .col .second-col span{
+    font-size: 22px;
+    color: #9b9898;
+    margin-bottom: 32px;
+    display: block;
+}
+.plan .row .col-8 .row .col .first-col i,.plan .row .col-8 .row .col .second-col i{
+    color: #8bd67b
+}
+.plan .row .col-8 .row .col .first-col button:last-of-type{
+    margin-top: 20%;
+    border-radius: 20px;
+    padding: 5px 50px;
+}
+.plan .row .col-8 .row .col .second-col button:last-of-type{
+    margin-top: 7%;
+    border-radius: 20px;
+    padding: 5px 50px;
+    color: #007BFF;
+    border-color: #007BFF;
+    font-weight: 400;
+}
+.plan .row .col-8 .row .col .first-col p,.plan .row .col-8 .row .col .second-col p{
+    display: inline-block;
+    margin-bottom: 20px;
+    line-height:2
+}
+.plan .row .col-8 .row .col .second-col p{
+    display: inline-block;
+    margin-bottom: 20px;
+    line-height:2.5
+}
+.plan .row .col-8 .row .col .first-col button,.plan .row .col-8 .row .col .second-col button{
+    display:inline-block;
+}
+
+/******************************************************/
+.repeated .interface{
+    background-color: #fff;
+    padding: 5% 0 2%
+}
+/********************************************************/
+.site-map{
+    padding: 3% 0 7%
+}
+.site-map .site-map-holder h5{
+    margin-bottom: 30px
+}
+.site-map .site-map-holder p{
+    color: #a5a5a5;
+    
+}
+.site-map .site-map-holder .row .col-7 p:first-of-type{
+    padding-right: 31%;
+    margin-bottom: 65px
+}
+.site-map .site-map-holder .row .col-7 ul li{
+    float: left;
+    margin-right: 20px
+}
+.site-map .site-map-holder .row .col p{
+    margin-right:-11px
+}
+/********************************************************/
+footer ul{
+    padding: 1% 0 3%
+}
+footer ul li:first-of-type{
+    float: left;
+}
+footer ul li:last-of-type{
+    float: right;
+}
+footer ul li:last-of-type span{
+    color: #007BFF
+}

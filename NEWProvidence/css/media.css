@@ -1,0 +1,173 @@
+@media (max-width: 767px) {
+  .myNav .myNav-holder .fa-bars {
+    display: none;
+  }
+  img {
+    width: 100%;
+  }
+  .row {
+    display: block;
+  }
+  .myCarousel {
+    display: none;
+  }
+  .myCarouselDescription {
+    padding: 5% 0;
+  }
+  .myNav .myNav-holder .hidden {
+    display: inline-block;
+  }
+  .myNav .myNav-holder .navbar-collapse h4 {
+    display: none;
+  }
+  .myNav .myNav-holder .right-nav ul li:last-of-type a {
+    text-align: center;
+  }
+  .cover .cover-holder .lead {
+    color: #fff;
+  }
+  .cover .cover-holder .watch {
+    width: 60%;
+  }
+  .passcode button:last-of-type {
+    margin: 20px 20px 20px 33px;
+  }
+  .parteners .drop img {
+    width: 100%;
+  }
+  .interface  h1{
+      font-size: 22px;
+  }
+  .interface form input[type="text"] {
+    height: 46px;
+  }
+  .myCarousel .myCarousel-holder .right {
+    margin-left: -23px;
+  }
+  .myCarousel img {
+    margin: 7px;
+    width: 85px;
+  }
+  .myCarousel .active img {
+    width: 150px;
+  }
+  .row > div {
+    max-width: 100% !important;
+  }
+  .plan .row .col-8 {
+    margin-top: 20px;
+  }
+  .plan .plan-holder h1 {
+    font-size: 22px;
+  }
+  .myCarouselDescription h2{
+      font-size: 23px;
+  }
+  .plan .personality {
+    width: 94%;
+  }
+  .plan .plan-holder .row,
+  .plan .row .col-8 .row .col:last-of-type {
+    margin: 0;
+  }
+  .plan .personality button {
+    width: 100%;
+  }
+  /* footer ul li:first-of-type {
+    margin: 0 13%;
+  } */
+  /* footer ul li:last-of-type {
+    margin: 0 23%;
+    margin-bottom: 20px;
+  } */
+  footer ul li:last-of-type {
+    float: left;
+  }
+  .site-map .site-map-holder .row .col-7 ul li {
+    margin-right: 15px;
+  }
+  .site-map .site-map-holder .row .col-7 p:first-of-type {
+    padding-right: 0;
+  }
+
+  .interface form {
+    width: 97%;
+  }
+  .site-map .site-map-holder .row .col p {
+    margin-right: 0;
+  }
+  .site-map .site-map-holder .learn {
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+  .site-map-holder img {
+    width: 40% !important;
+  }
+  .myP {
+    padding-left: 25px;
+  }
+  .cover .cover-holder .lead {
+    padding: 0 4%;
+    font-size: 17px;
+  }
+  .myNav .myNav-holder .hidden {
+    font-size: 20px;
+  }
+  .cover h1 {
+    font-size: 37px;
+  }
+}
+@media (min-width: 767px) and (max-width: 991.98px) {
+  .myCarousel {
+    display: none;
+  }
+  .myP {
+    padding-right: 25px;
+  }
+  .parteners {
+    padding: 10% 0 5% 2%;
+  }
+  .myCarouselDescription {
+    padding: 5% 0;
+  }
+  .plan h1 {
+    font-size: 25px;
+  }
+  .plan .personality button {
+    padding: 6px 31px;
+  }
+  .plan .row .col-8 .row .col .first-col p,
+  .plan .row .col-8 .row .col .second-col p {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .plan .row .col-8 .row .col .first-col span,
+  .plan .row .col-8 .row .col .second-col span {
+    font-size: 20px;
+  }
+  .plan .row .col-8 .row .col:last-of-type {
+    margin-left: -30px;
+  }
+  .interface form {
+    width: 80%;
+  }
+  .app-link {
+    display: flex;
+    justify-content: center;
+  }
+  .cover .cover-holder .watch {
+    width: 60%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .myCarousel img {
+    margin: 0 6% !important;
+  }
+  .plan .personality button {
+    padding: 6px 57px;
+  }
+  .parteners {
+    padding: 10% 0 5% 2%;
+  }
+}
